@@ -1,0 +1,18 @@
+.blog-title {
+  font-size: 1.5em;
+}
+
+.post-h1 {
+  font-size: 1.5em;
+  padding-left: 3%;
+}
+
+.paragraph-style {
+  line-height: 140%;
+  text-indent: 3em;
+}
+
+.article {
+  padding-left: 3%;
+  padding-right: 3%;
+}
