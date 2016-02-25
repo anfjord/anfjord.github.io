@@ -1,0 +1,44 @@
+* {
+  /* box-sizing: border-box;*/
+  /*border: 1px solid red;*/
+  font-family: 'Open Sans', sans-serif;
+
+}
+header {
+  /*border: 1px solid blue;
+
+}
+
+.page-name {
+  font-size: 2em;
+ /* border: 1px solid red;*/
+  margin-bottom: 0px;
+
+  /*padding: 0,0,0,0;*/
+}
+
+.header-nav{
+  /*border: 1px solid red;*/
+  text-align: right;
+  font-size: .75em;
+
+}
+
+footer {
+  /*border: 1px solid blue;*/
+}
+
+.footer-nav {
+  text-align: right;
+  font-size: .75em;
+  height: 2em;
+}
+
+section {
+  font-size: 1em;
+}
+
+.hr {
+  height: .2em;
+  background-color: red;
+}
