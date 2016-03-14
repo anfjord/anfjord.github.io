@@ -26,19 +26,36 @@
       <article>
         <section>
           <strong>Enumerable</strong>
- <p> </p>
+ <p> Enumerable is a set of methods bundled together that can manipulate collections.
+ </b>Using Enumerable  you don't have to write a bunch of  methods like  search, sort and manipulate collection many different time, just once!</b>
+ All of the methods in Enumerable are based on the each method. </b>
+ It means that the class needs to have its own #each method that Enumerable can use  in order to access all the bundled methods. </p>
 
 
 
 <strong>#map</strong>
- <p> </p>
+ <p> he enumerable #map will take an object and run a block of code for
+each element in the object and collect each element and put it in an array.
+Map is sometimes called collect. The main difference from using each is that
+map returns the transformed collection of elements.</p>
 
-<p>Lets take an example:</b> </p>
- <p></p>
+<p>The syntax for #map looks like this: object.map {| element | block of code}.
+</p>
 
-        <p> If you want the price of apples, you can access it by typing my_hash[“apples”}.</p>
+<strong>Lets take an example using a hash.</strong>
+
+<p>This is a collection of my Swedish stocks have moved south today  and I wanna add the message “Sell!” to each one that went down. </p>
+
+
+ <p>my_Swedish_stocks = {:Volvo => "down", :Ericsson => "down", :Scania => "down"}</p>
+
+ <p>stocks_to_sell = my_Swedish_stocks.map {|name,movement| {name => movement + " Sell!"}}</p>
+
+<strong>It will return:</strong>
+
+ <p>=> [{:Volvo=>"down Sell!"}, {:Ericsson=>"down Sell!"}, {:Scania=>"down Sell!"}]</p>
+
 	        </section>
-        </section>
       </article>
 
 
